@@ -6,6 +6,10 @@
     <string name="female">Female</string>
     <string name="are_you_18">Are you 18+ ?</string>
     <string name="save">Save</string>
+    <string name="call_user_directly">Call User Directly</string>
+    <string name="call_user_via_dialpad">Call User via DialPad</string>
+    <string name="go_to_google_web_page">Go to Google Web-Page</string>
+    <string name="go_to_home_page">Go To Home Page</string>
 
     <string-array name="hobbies">
         <item>Cricket</item>
