@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatActivity
 import `in`.locate365.mvlucollege.R
 
 class PracticalTwo : AppCompatActivity() {
-    lateinit var etFirstName: EditText
-    lateinit var etLastName: EditText
-    lateinit var rgGender: RadioGroup
-    lateinit var cbAgeCheck: CheckBox
-    lateinit var spinnerHobbies: Spinner
+    private lateinit var etFirstName: EditText
+    private lateinit var etLastName: EditText
+    private lateinit var rgGender: RadioGroup
+    private lateinit var cbAgeCheck: CheckBox
+    private lateinit var spinnerHobbies: Spinner
     private lateinit var btnSave: Button
     private var isMale: Boolean = true
     private var areYou18: Boolean = false

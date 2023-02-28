@@ -27,6 +27,7 @@
         <activity android:name=".three.one.PracticalThreeOne"/>
         <activity android:name=".three.two.PracticalThreeTwo"/>
         <activity android:name=".four.PracticalFourOne"/>
+        <activity android:name=".extra.ActivityLifecycle"/>
     </application>
 
 </manifest>

@@ -46,4 +46,14 @@
         android:text="@string/go_to_home_page"
         app:layout_constraintTop_toBottomOf="@+id/btn_implicit_browser"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_activity_lifecycle"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/go_to_activity_lifecycle"
+        app:layout_constraintTop_toBottomOf="@+id/btn_home"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

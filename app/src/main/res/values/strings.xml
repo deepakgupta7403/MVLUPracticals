@@ -10,6 +10,7 @@
     <string name="call_user_via_dialpad">Call User via DialPad</string>
     <string name="go_to_google_web_page">Go to Google Web-Page</string>
     <string name="go_to_home_page">Go To Home Page</string>
+    <string name="go_to_activity_lifecycle">Go To Activity LifeCycle</string>
 
     <string-array name="hobbies">
         <item>Cricket</item>
