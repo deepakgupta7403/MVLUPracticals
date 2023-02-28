@@ -12,7 +12,7 @@
         android:theme="@style/Theme.MVLUCollege"
         tools:targetApi="31">
         <activity
-            android:name=".PracticalThreeOne"
+            android:name=".three.two.PracticalThreeTwo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

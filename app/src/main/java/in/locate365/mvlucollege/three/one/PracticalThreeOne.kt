@@ -1,9 +1,10 @@
-package `in`.locate365.mvlucollege
+package `in`.locate365.mvlucollege.three.one
 
 import android.os.Bundle
 import android.widget.Gallery
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import `in`.locate365.mvlucollege.R
 
 class PracticalThreeOne : AppCompatActivity() {
 

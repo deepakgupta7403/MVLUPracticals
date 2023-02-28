@@ -1,4 +1,4 @@
-package `in`.locate365.mvlucollege
+package `in`.locate365.mvlucollege.two
 
 import android.os.Bundle
 import android.widget.Button
@@ -8,6 +8,7 @@ import android.widget.RadioGroup
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import `in`.locate365.mvlucollege.R
 
 class PracticalTwo : AppCompatActivity() {
     lateinit var etFirstName: EditText
