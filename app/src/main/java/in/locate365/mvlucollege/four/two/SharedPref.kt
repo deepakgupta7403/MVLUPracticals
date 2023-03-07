@@ -1,4 +1,4 @@
-package `in`.locate365.mvlucollege.four
+package `in`.locate365.mvlucollege.four.two
 
 import android.content.Context
 import android.content.SharedPreferences

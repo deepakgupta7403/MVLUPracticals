@@ -1,19 +1,16 @@
 package `in`.locate365.mvlucollege
 
-import android.R.interpolator.linear
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.marginTop
 import androidx.databinding.DataBindingUtil
 import `in`.locate365.mvlucollege.databinding.HomeActivityBinding
 import `in`.locate365.mvlucollege.extra.ActivityLifecycle
-import `in`.locate365.mvlucollege.four.PracticalFourOne
+import `in`.locate365.mvlucollege.five.one.PracticalFiveOne
+import `in`.locate365.mvlucollege.four.one.PracticalFourOne
+import `in`.locate365.mvlucollege.four.two.PracticalFourTwo
 import `in`.locate365.mvlucollege.three.one.PracticalThreeOne
 import `in`.locate365.mvlucollege.three.two.PracticalThreeTwo
 import `in`.locate365.mvlucollege.two.PracticalTwo
@@ -30,6 +27,8 @@ class HomeActivity : AppCompatActivity() {
         nameClassMap.put("Practical Three One", PracticalThreeOne::class.java)
         nameClassMap.put("Practical Three Two", PracticalThreeTwo::class.java)
         nameClassMap.put("Practical Four One", PracticalFourOne::class.java)
+        nameClassMap.put("Practical Four Two", PracticalFourTwo::class.java)
+        nameClassMap.put("Practical Five One", PracticalFiveOne::class.java)
         nameClassMap.put("Activity LifeCycle", ActivityLifecycle::class.java)
 
         for (key in nameClassMap.entries) {

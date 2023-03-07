@@ -1,4 +1,4 @@
-package `in`.locate365.mvlucollege.four
+package `in`.locate365.mvlucollege.four.one
 
 import android.content.Intent
 import android.content.pm.PackageManager
