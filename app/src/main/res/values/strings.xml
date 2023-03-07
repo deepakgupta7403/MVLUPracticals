@@ -14,6 +14,20 @@
     <string name="service_in_android">Service in Android</string>
     <string name="start_service">Start Service</string>
     <string name="stop_service">Stop Service</string>
+    <string name="blink">Blink</string>
+    <string name="rotate">Rotate</string>
+    <string name="fade">Fade</string>
+    <string name="move">Move</string>
+    <string name="slide">Slide</string>
+    <string name="zoom">Zoom</string>
+    <string name="stop_animation">Stop Animation</string>
+    <string name="music_player">Music Player</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="context_menu">Context Menu</string>
+    <string name="popup_menu">Popup Menu</string>
 
     <string-array name="hobbies">
         <item>Cricket</item>

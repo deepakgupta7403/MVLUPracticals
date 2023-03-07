@@ -7,10 +7,15 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import `in`.locate365.mvlucollege.databinding.HomeActivityBinding
+import `in`.locate365.mvlucollege.eight.PracticalEightTwo
 import `in`.locate365.mvlucollege.extra.ActivityLifecycle
 import `in`.locate365.mvlucollege.five.one.PracticalFiveOne
+import `in`.locate365.mvlucollege.five.two.PracticalFiveTwo
 import `in`.locate365.mvlucollege.four.one.PracticalFourOne
 import `in`.locate365.mvlucollege.four.two.PracticalFourTwo
+import `in`.locate365.mvlucollege.seven.one.PracticalSevenOne
+import `in`.locate365.mvlucollege.seven.two.PracticalSevenTwo
+import `in`.locate365.mvlucollege.six.one.PracticalSixOne
 import `in`.locate365.mvlucollege.three.one.PracticalThreeOne
 import `in`.locate365.mvlucollege.three.two.PracticalThreeTwo
 import `in`.locate365.mvlucollege.two.PracticalTwo
@@ -29,6 +34,11 @@ class HomeActivity : AppCompatActivity() {
         nameClassMap.put("Practical Four One", PracticalFourOne::class.java)
         nameClassMap.put("Practical Four Two", PracticalFourTwo::class.java)
         nameClassMap.put("Practical Five One", PracticalFiveOne::class.java)
+        nameClassMap.put("Practical Five Two", PracticalFiveTwo::class.java)
+        nameClassMap.put("Practical Six One", PracticalSixOne::class.java)
+        nameClassMap.put("Practical Seven One", PracticalSevenOne::class.java)
+        nameClassMap.put("Practical Seven Two", PracticalSevenTwo::class.java)
+        nameClassMap.put("Practical Eight Two", PracticalEightTwo::class.java)
         nameClassMap.put("Activity LifeCycle", ActivityLifecycle::class.java)
 
         for (key in nameClassMap.entries) {

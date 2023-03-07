@@ -29,6 +29,10 @@
         <activity android:name=".four.one.PracticalFourOne"/>
         <activity android:name=".four.two.PracticalFourTwo"/>
         <activity android:name=".five.one.PracticalFiveOne"/>
+        <activity android:name=".six.one.PracticalSixOne"/>
+        <activity android:name=".seven.one.PracticalSevenOne"/>
+        <activity android:name=".seven.two.PracticalSevenTwo"/>
+        <activity android:name=".eight.PracticalEightTwo"/>
         <activity android:name=".extra.ActivityLifecycle"/>
 
         <service android:name=".five.two.MusicService"/>
